@@ -1,0 +1,7 @@
+Concurrent transactions:
+
+Exclusive lock (X - lock)
+SELECT FOR UPDATE
+
+Pessimistic lock
+version
