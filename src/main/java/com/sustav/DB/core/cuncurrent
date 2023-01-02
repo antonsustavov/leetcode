@@ -3,5 +3,8 @@ Concurrent transactions:
 Exclusive lock (X - lock)
 SELECT FOR UPDATE
 
+Read lock(R -lock)
+
 Pessimistic lock
-version
+1. version
+2. Serializible fail but I can retry transaction

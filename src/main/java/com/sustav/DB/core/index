@@ -1,0 +1,4 @@
+Indexes:
+B-Tree - tuples into nodes (2 - row : 345 - index value)
+B+Tree - all values into leaves
+LSM -
