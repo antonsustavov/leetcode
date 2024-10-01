@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sustav.algoexpert.easy.balanced_brackets.SolutionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-02T08:38:35" hostname="MacBook-Pro-sustav.local" time="0.026">
-  <properties/>
-  <testcase name="givenNullInput_whenCheckingForBalance_shouldReturnFalse()" classname="com.sustav.algoexpert.easy.balanced_brackets.SolutionTest" time="0.026"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

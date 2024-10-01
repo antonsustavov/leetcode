@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sustav.ALGORITHM.challenges.algoexpert.medium.levenshtein_distance.LevenshteinDistanceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-24T16:23:53" hostname="MacBook-Pro-sustav.local" time="164.027">
+  <properties/>
+  <testcase name="levenshteinDistance()" classname="com.sustav.ALGORITHM.challenges.algoexpert.medium.levenshtein_distance.LevenshteinDistanceTest" time="164.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

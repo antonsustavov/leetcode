@@ -1,0 +1,29 @@
+package com.sustav.ALGORITHM.structures.string.concatenating_string;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.*;
+
+class TwoPointerApproachTest {
+    private TwoPointerApproach twoPointerApproach;
+
+    @BeforeEach
+    void setUp() {
+        twoPointerApproach = new TwoPointerApproach();
+    }
+
+    @Test
+    void concatTwoString() {
+        String input = "Geeks";
+        char[] chars = input.toCharArray();
+        String input2 = "World";
+        char[] chars2 = input2.toCharArray();
+        char[] expected = new char[]{'G', 'e', 'e', 'k', 's', 'W', 'o', 'r', 'l', 'd'};
+
+        char[] actual = twoPointerApproach.concatTwoString(chars, chars2);
+
+        assertThat(actual).isEqualTo(expected);
+    }
+}

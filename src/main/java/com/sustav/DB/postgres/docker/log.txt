@@ -1,9 +1,0 @@
-//build from docker file
-docker build -t pgshard .
-docker run --name pgshard1 -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d pgshard
-
-docker run -e POSTGRES_PASSWORD=postgres --name pg1 postgres
-docker exec -it pg1 sql -U postgres
-
-Pgadmin
-docker run -e PGADMIN_DEFAULT_EMAIL=sustav@ff.com -e PGADMIN_DEFAULT_PASSWORD=password -p 5555:80 --name pgadmin dpage/pgadmin4

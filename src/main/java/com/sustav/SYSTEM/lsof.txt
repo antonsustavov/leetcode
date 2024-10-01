@@ -1,2 +1,0 @@
-#Process/socket
-lsof -i -n -P | grep [sendmail]
